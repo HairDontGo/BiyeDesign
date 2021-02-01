@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	border: 0;
+}
+
+ol,
+ul,
+li {
+	list-style: none;
+}
+
+body {
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	background-color: white;
+}
+
+body {
+	letter-spacing: 1px;
+	font-family: "times new roman";
+	letter-spacing: 0.0625rem;
+	font-size: 16px;
+	text-align: justify;
+}
+
+a {
+	color: #00C6FF;
+	font-weight: bold;
+	display: inline-block;
+	text-decoration: none;
+}
+
+div {
+	display: block;
+}
+iframe{
+	border: none;margin:0 auto;
+}
+#matrix{position: fixed; top:0; left: 0; z-index: -10; opacity:0.8;}
