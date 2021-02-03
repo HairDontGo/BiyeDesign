@@ -1,5 +1,5 @@
 //文字
-var txts = "01";
+var txts = "01010101010101010101qwertyuiopasdfghjklzxcvbnm";
 //转为数组
 txts = txts.split("");
 var matrix = document.getElementById("matrix");
@@ -17,7 +17,7 @@ window.addEventListener("resize", displayWindowSize);
 // 第一次调用该函数
 displayWindowSize();
 var drop = [];
-var font_size = 18;
+var font_size = 20;
 var columns = matrix.width / font_size;
 for (var i = 0; i < columns; i++)
 	drop[i] = 1;
@@ -40,4 +40,4 @@ function drawMatrix() {
 		drop[i]++;
 	}
 }
-setInterval(drawMatrix, 40);
+setInterval(drawMatrix, 42);
