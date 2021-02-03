@@ -17,7 +17,7 @@ body {
 	width: 1200px;
 	height: 100%;
 	margin: 0 auto;
-	background-color: white;
+	background-color:transparent;
 }
 
 body {
@@ -29,8 +29,8 @@ body {
 }
 
 a {
-	color: #00C6FF;
-	font-weight: bold;
+	color: #007596;
+	font-weight:bolder;
 	display: inline-block;
 	text-decoration: none;
 }
@@ -38,7 +38,3 @@ a {
 div {
 	display: block;
 }
-iframe{
-	border: none;margin:0 auto;
-	}
-#matrix{position: fixed; top:0; left: 0; z-index: -10; opacity:0.8;}
