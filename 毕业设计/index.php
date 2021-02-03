@@ -11,8 +11,9 @@
 	</head>
 	<body >
 		<canvas id="matrix"></canvas>
-		<iframe  src="./header.html" allowtransparency="true"  title="test" frameborder="0" scrolling="no" width="100%" height="105px">您的浏览器不支持iframe</iframe>
 		<script src="./js/bg.js" type="text/javascript" charset="utf-8"></script>
-		<iframe src="./footer.html" allowtransparency="true"  title="test" frameborder="0" scrolling="no" width="100%" height="170px" >您的浏览器不支持iframe</iframe>
+		<?php include "./header.php"; ?>
+		<?php include "./footer.php"; ?>
+		
 	</body>
 </html>
