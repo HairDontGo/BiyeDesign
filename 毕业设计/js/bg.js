@@ -1,5 +1,5 @@
 //文字
-var txts = "01010101010101010101qwertyuiopasdfghjklzxcvbnm";
+var txts = "01";
 //转为数组
 txts = txts.split("");
 var matrix = document.getElementById("matrix");
