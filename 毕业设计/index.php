@@ -12,8 +12,8 @@
 	<body >
 		<canvas id="matrix"></canvas>
 		<script src="./js/bg.js" type="text/javascript" charset="utf-8"></script>
-		<?php include "./header.php"; ?>
-		<?php include "./footer.php"; ?>
+		<?php include "./header.html"; ?>
+		<?php include "./footer.html"; ?>
 		
 	</body>
 </html>
