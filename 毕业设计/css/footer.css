@@ -23,28 +23,7 @@ footer {
 	display: block;
 }
 
-.ValueMenu {
-	display: none;
-	list-style: none;
-	position: absolute;
-	bottom: 5px;
-}
-.ft_nav_st{
-	line-height: 30px;
-}
-.ft_nav_st:hover .ValueMenu {
-	display: block;
-	padding: 0 auto;
-	margin: 0 auto;
-	border-radius: 5px;
-	width: 100px;
-	height: auto;
-	background-color: #000000;
-}
 
-.active {}
-
-.disable {}
 
 #footer_bottom {
 	padding-top: 15px;
